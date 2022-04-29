@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  color: $white;
+  &-nav {
+    li {
+      margin-right: 0;
+      margin-left: 30px;
+      @include respond-below(md) {
+        padding-bottom: 20px;
+      }
+      &:first-of-type {
+        @include respond-below(md) {
+          margin-left: 0;
+        }
+      }
+    }
+    @include respond-below(md) {
+      padding-bottom: 20px;
+    }
+  }
+  .container-fluid {
+    max-width: 1140px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    @include respond-below(md) {
+      flex-direction: column-reverse;
+    }
+  }
+  &-copyright {
+    text-align: left;
+    font-family: $montserrat;
+    font-size: 0.8rem;
+    line-height: 1.15;
+    flex-grow: 1;
+  }
+}
