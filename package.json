@@ -1,7 +1,7 @@
 {
   "name": "cuspearth",
   "version": "1.0.0",
-  "description": "Html BoilerPlate with Sass, Bootstrap 4, Gulp",
+  "description": "Html BoilerPlate with Sass, Bootstrap 5, Gulp",
   "author": "",
   "scripts": {
     "build": "gulp",
