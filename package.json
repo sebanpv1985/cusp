@@ -1,8 +1,8 @@
 {
-  "name": "htmlboilerplate",
+  "name": "cuspearth",
   "version": "1.0.0",
   "description": "Html BoilerPlate with Sass, Bootstrap 4, Gulp",
-  "author": "Jagath Jayakumar",
+  "author": "",
   "scripts": {
     "build": "gulp",
     "start": "gulp serve",
